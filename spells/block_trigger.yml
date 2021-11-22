@@ -2,7 +2,7 @@ block_trigger:
   creator: Finn_Lopes
   creator_id: 72f3caf9-ec75-3590-8307-ffc534409f2e
   name: example
-  description: quack
+  description: cast effect when step on water
   icon: stick
   actions:
     cast:

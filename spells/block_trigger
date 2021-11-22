@@ -1,0 +1,36 @@
+block_trigger:
+  creator: Finn_Lopes
+  creator_id: 72f3caf9-ec75-3590-8307-ffc534409f2e
+  name: example
+  description: quack
+  icon: stick
+  actions:
+    cast:
+      - class: Interval
+        duration: 10000
+        actions:
+          - class: ChangeContext
+            target_caster: true
+            target_offset: 0,-1,0
+            actions:
+              - class: AreaOfEffect
+                radius: 1
+                actions:
+                  - class: CheckBlock
+                    allowed: water
+                    actions:
+                      - class: ChangeContext
+                        target_caster: true
+                        actions:
+                          - class: PotionEffect
+                            duration: 1000
+                            add_effects:
+                              glowing: 1
+                      - class: Delay
+                        delay: 250
+  effects:
+    cast:
+    - location: target
+      effectlib:
+    - sound: magic.zap
+  parameters:

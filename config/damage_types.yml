@@ -1,0 +1,89 @@
+damage_types:
+  overall:
+    max_reduction: 1
+    max_strength: 2
+    max_weakness: 2
+  critical:
+    max_reduction: 1
+    max_strength: 1
+    max_weakness: 2
+  explosion:
+    max_reduction: 1
+    max_strength: 2
+    max_weakness: 2
+  fall:
+    max_reduction: 1
+    max_strength: 2
+    max_weakness: 2
+  ice:
+    max_reduction: 1
+    max_strength: 2
+    max_weakness: 2
+  fire:
+    max_reduction: 1
+    max_strength: 2
+    max_weakness: 2
+  physical:
+    max_reduction: 1
+    max_strength: 2
+    max_weakness: 2
+  projectile:
+    max_reduction: 1
+    max_strength: 2
+    max_weakness: 2
+  magic:
+    max_reduction: 1
+    max_strength: 2
+    max_weakness: 2
+  entity_sweep_attack:
+    max_reduction: 1
+    max_strength: 2
+    max_weakness: 2
+  drowning:
+    max_reduction: 1
+    max_strength: 2
+    max_weakness: 2
+  lightning:
+    max_reduction: 1
+    max_strength: 2
+    max_weakness: 2
+  hot_floor:
+    max_reduction: 1
+    max_strength: 2
+    max_weakness: 2
+  suffocation:
+    max_reduction: 1
+    max_strength: 2
+    max_weakness: 2
+  cramming:
+    max_reduction: 1
+    max_strength: 2
+    max_weakness: 2
+  thorns:
+    max_reduction: 1
+    max_strength: 2
+    max_weakness: 2
+  starve:
+    max_reduction: 1
+    max_strength: 2
+    max_weakness: 2
+  fly_into_wall:
+    max_reduction: 1
+    max_strength: 2
+    max_weakness: 2
+  melting:
+    max_reduction: 1
+    max_strength: 2
+    max_weakness: 2
+  out_of_world:
+    max_reduction: 1
+    max_strength: 2
+    max_weakness: 2
+  poison:
+    max_reduction: 1
+    max_strength: 2
+    max_weakness: 2
+  wither:
+    max_reduction: 1
+    max_strength: 2
+    max_weakness: 2

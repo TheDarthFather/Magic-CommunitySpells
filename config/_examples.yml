@@ -1,0 +1,5 @@
+example: survival
+examples:
+- test
+- automata
+add_examples: []

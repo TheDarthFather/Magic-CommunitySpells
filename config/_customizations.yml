@@ -1,0 +1,5 @@
+action_bar_queue_interval: 400.0
+lore_wrap_limit: 32.0
+action_bar_queue_max_depth: 1024.0
+lore_wrap_prefix: ''
+allow_wands_as_ingredients: true

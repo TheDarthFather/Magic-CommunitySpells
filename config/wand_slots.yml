@@ -1,0 +1,28 @@
+wand_slots:
+  controls:
+    hidden: true
+    replaceable: true
+    default_slotted: controls_cycle
+  gui:
+    hidden: true
+    replaceable: true
+    default_slotted: gui_none
+  spellmode:
+    hidden: true
+    replaceable: true
+    default_slotted: spellmode_inventory
+  swappable:
+    hidden: true
+    replaceable: true
+    default_slotted: swappable_false
+  castsource:
+    hidden: true
+    replaceable: true
+  Attunement:
+    replaceable: true
+  Capacitor:
+    replaceable: true
+  Engram:
+    replaceable: true
+  Conduit:
+    replaceable: true

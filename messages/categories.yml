@@ -1,0 +1,23 @@
+categories:
+    arcane:
+      name: "&#ff00ff⚜ &fArcane Magic"
+    fire:
+      name: "&#EE4B2B🔥 &fFire Magic"
+    ice:
+      name: "&#b0e0e6❄ &fIce Magic"
+    lightning:
+      name: "&#ffff00⚡ &fLightning Magic"
+    wind:
+      name: "&#ccfdcc≈ &fWind Magic"
+    explosive:
+      name: "&#FFAE42☄ &fExplosive Magic"
+    windcard:
+      name: "Wildcard Magic"
+    light:
+      name: "☀ Light Magic"
+    ender:
+      name: "Ender Magic"
+    overall:
+      name: "&#ff00ff&l❆"
+    necromancy:
+      name: "&l℣"

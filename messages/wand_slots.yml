@@ -1,0 +1,6 @@
+wand_slots:
+  broom_upgrade:
+    name: Broom Upgrade
+  controls:
+    lore_instructions: "`<li>`&ePress &bSneak + Drop &eto modify this wand's settings"
+    control_instructions: "&8| &7> &ePress &bSneak + Drop &eto modify this wand's settings"

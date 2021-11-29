@@ -1,0 +1,261 @@
+basedamage:
+  icon: potion:#FF0000
+  hidden: true
+  default: 0
+  min: -999
+  max: 999
+vitality:
+  icon: potion:#FF0000
+  default: 0
+  min: -999
+  max: 999
+vitalitymultiplier:
+  icon: potion:#FF0000
+  default: 1
+  min: -999
+  max: 999
+defense:
+  icon: iron_chestplate
+  default: 0
+  min: -999
+  max: 999
+defensemultiplier:
+  icon: potion:#FF0000
+  default: 1
+  min: -999
+  max: 999
+toughness:
+  icon: iron_chestplate
+  default: 0
+  min: -999
+  max: 999
+toughnessmultiplier:
+  icon: iron_chestplate
+  default: 1
+  min: -999
+  max: 999
+knockbackdefense:
+  default: 0
+  min: -999
+  max: 999
+knockbackdefensemultiplier:
+  icon: potion:#FF0000
+  default: 1
+  min: -999
+  max: 999
+speed:
+  icon: feather
+  default: 0
+  min: -999
+  max: 999
+speedmultiplier:
+  icon: potion:#FF0000
+  default: 1
+  min: -999
+  max: 999
+critchance:
+  icon: iron_sword
+  default: 0
+  min: 0
+  max: 100
+critchancemultiplier:
+  icon: potion:#FF0000
+  default: 1
+  min: -999
+  max: 999
+critdamage:
+  icon: iron_axe
+  default: 50
+  min: -999
+  max: 999
+critdamagemultiplier:
+  icon: potion:#FF0000
+  default: 1
+  min: -999
+  max: 999
+favor:
+  icon: lily_of_the_valley
+  default: 0
+  min: -999
+  max: 100
+favormultiplier:
+  icon: potion:#FF0000
+  default: 1
+  min: -999
+  max: 999
+#Resistances (Protection)
+magicresistance:
+  icon: chain_chestplate
+  default: 0
+  min: 0
+  max: 999
+magicresistancemultiplier:
+  icon: potion:#FF0000
+  default: 1
+  min: -999
+  max: 999
+arcaneresistance:
+  icon: chain_chestplate
+  default: 0
+  min: 0
+  max: 999
+arcaneresistancemultiplier:
+  icon: potion:#FF0000
+  default: 1
+  min: -999
+  max: 999
+fireresistance:
+  icon: chain_chestplate
+  default: 0
+  min: 0
+  max: 999
+fireresistancemultiplier:
+  icon: potion:#FF0000
+  default: 1
+  min: -999
+  max: 999
+iceresistance:
+  icon: chain_chestplate
+  default: 0
+  min: 0
+  max: 999
+iceresistancemultiplier:
+  icon: potion:#FF0000
+  default: 1
+  min: -999
+  max: 999
+lightningresistance:
+  icon: chain_chestplate
+  default: 0
+  min: 0
+  max: 999
+lightningresistancemultiplier:
+  icon: potion:#FF0000
+  default: 1
+  min: -999
+  max: 999
+explosiveresistance:
+  icon: chain_chestplate
+  default: 0
+  min: -999
+  max: 999
+explosiveresistancemultiplier:
+  icon: potion:#FF0000
+  default: 1
+  min: -999
+  max: 999
+#Damage (Strength)
+magicdamage:
+  icon: chain_chestplate
+  default: 0
+  min: -999
+  max: 999
+magicdamagemultiplier:
+  icon: potion:#FF0000
+  default: 1
+  min: -999
+  max: 999
+arcanedamage:
+  icon: chain_chestplate
+  default: 0
+  min: -999
+  max: 999
+arcanedamagemultiplier:
+  icon: potion:#FF0000
+  default: 1
+  min: -999
+  max: 999
+firedamage:
+  icon: chain_chestplate
+  default: 0
+  min: -999
+  max: 999
+firedamagemultiplier:
+  icon: potion:#FF0000
+  default: 1
+  min: -999
+  max: 999
+icedamage:
+  icon: chain_chestplate
+  default: 0
+  min: -999
+  max: 999
+icedamagemultiplier:
+  icon: potion:#FF0000
+  default: 1
+  min: -999
+  max: 999
+lightningdamage:
+  icon: chain_chestplate
+  default: 0
+  min: -999
+  max: 999
+lightningdamagemultiplier:
+  icon: potion:#FF0000
+  default: 1
+  min: -999
+  max: 999
+explosivedamage:
+  icon: chain_chestplate
+  default: 0
+  min: -999
+  max: 999
+explosivedamagemultiplier:
+  icon: potion:#FF0000
+  default: 1
+  min: -999
+  max: 999
+#Wand boosts
+wanddamage:
+  icon: chain_chestplate
+  default: 0
+  min: -999
+  max: 999
+manaboost:
+  icon: chain_chestplate
+  default: 0
+  min: -999
+  max: 999
+manaregenboost:
+  icon: chain_chestplate
+  default: 0
+  min: -999
+  max: 999
+cooldownreduction:
+  icon: chain_chestplate
+  default: 0
+  min: -999
+  max: 999
+costreduction:
+  icon: chain_chestplate
+  default: 0
+  min: -999
+  max: 999
+wandpower:
+  icon: chain_chestplate
+  default: 0
+  min: -999
+  max: 999
+manaleech:
+  icon: chain_chestplate
+  default: 0
+  min: 0
+  max: 999
+lifeleech:
+  icon: chain_chestplate
+  default: 0
+  min: 0
+  max: 999
+#Earn Boosts:
+moneyearnboost:
+  default: 0
+  min: 0
+  max: 999
+spearnboost:
+  default: 0
+  min: 0
+  max: 999
+combatxpearnboost:
+  default: 0
+  min: 0
+  max: 999

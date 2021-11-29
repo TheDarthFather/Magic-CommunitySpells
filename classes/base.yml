@@ -1,0 +1,10 @@
+base:
+  # This has been added automatically so that anything you remove here does not get inherited back in from the default configs
+  inherit: false
+  storage:
+    path: subclass
+    spell_levels: class
+    spells: class
+    brushes: class
+    hotbar_count: subclass
+    attributes: mage,wand,class

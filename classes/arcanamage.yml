@@ -1,0 +1,43 @@
+arcanamage:
+  inherit: base
+  path: cantrip
+  spells:
+    - criticalplayer
+  health_scale: 20
+  mana_max_boost: "manaboost/100"
+  mana_regeneration_boost: "manaregenboost/100"
+  protection:
+    overall: "12*log(defense*1/6)*1/200*defensemultiplier"
+    magic: "(magicresistance+arcaneresistance)/100*arcaneresistancemultiplier*magicresistancemultiplier"
+    fire: "(magicresistance+fireresistance)/100*fireresistancemultiplier*magicresistancemultiplier"
+    ice: "(magicresistance+iceresistance)/100*iceresistancemultiplier*magicresistancemultiplier"
+    lightning: "(magicresistance+lightningresistance)/100*lightningresistancemultiplier*magicresistancemultiplier"
+    explosion: "(magicresistance+explosiveresistance)/100*explosiveresistancemultiplier*magicresistancemultiplier"
+  strength:
+    magic: "(magicdamage+arcanedamage)/100*arcanedamagemultiplier*magicdamagemultiplier"
+    fire: "(magicdamage+firedamage)/100*firedamagemultiplier*magicdamagemultiplier"
+    ice: "(magicdamage+icedamage)/100*icedamagemultiplier*magicdamagemultiplier"
+    lightning: "(magicdamage+lightningdamage)/100*lightningdamagemultiplier*magicdamagemultiplier"
+    explosion: "(magicdamage+explosivedamage)/100*explosivedamagemultiplier*magicdamagemultiplier"
+  entity_attributes:
+    generic_attack_damage:
+      value: "basedamage/20-1"
+      operation: add_number
+    generic_max_health:
+      value: "vitality/5*vitalitymultiplier"
+      operation: add_number
+    generic_armor:
+      value: "defense/5*defensemultiplier"
+      operation: add_number
+    generic_armor_toughness:
+      value: "toughness/5*toughnessmultiplier"
+      operation: add_number
+    generic_knockback_resistance:
+      value: "knockbackdefense/100*knockbackdefensemultiplier"
+      operation: add_number
+    generic_movement_speed:
+      value: "speed * 0.001*speedmultiplier"
+      operation: add_number
+    generic_luck:
+      value: "favor*favormultiplier"
+      operation: add_number
